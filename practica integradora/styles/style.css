@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/*HOME*/
+.bodyHome {
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: right;
+}
+
+.h1Home {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.sectionHome{
+    color: indigo;
+}
+
+.h2Home {
+    position: absolute;
+    font-size: 25px;
+    left: 15px;
+    padding-top: 200px;
+    color: grey;
+}
+
+.ulHome{
+    margin: 10px;
+    
+}
+
+.liHome {
+    list-style: none;
+    padding: 5px;
+}
+
+.liHome a:hover {
+    background-color: gold;
+}
+
+
+i {
+    padding-right: 3px;
+    margin: 10px;
+}
+
+
+/*ABOUT*/
+.bodyAbout {
+    background-image: url(../img/about.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.headerAbout {
+    background-color: snow;
+    margin: 15px;
+}
+
+.ulAbout {
+    float: right;
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.liAbout {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gold;
+}
+
+.sectionAbout {
+    padding-right: 2px;
+    margin: 25px;
+    text-align: right;
+}
+
+.h1About {
+    font-size: 50px;
+}
+
+.pAbout1 {
+    color: cadetblue;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.pAbout2 {
+    color: cadetblue;
+    margin: 23px;
+}
+
+/*MUSIC*/
+
+.headerMusic{
+    background-image: url(../img/music-top.jpg);
+    background-repeat: repeat-x;
+}
+
+.ulMusic {
+    float: right;
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.liMusic {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.sectionMusic {
+    padding-right: 2px;
+    margin: 25px;
+    text-align: right;
+}
+
+/*CONTACT*/
+
+.sectionContacto{
+    padding-right: 2px;
+    margin: 25px;
+    text-align: right;
+}
+
+.h1Contacto{
+    font-weight: bold;
+    font-size: 45px;
+    padding: 25px;
+}
+
+.h2Contacto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.spanContacto{
+    color: cadetblue;
+    padding: 10px;
+}
+
+.pContacto{
+    padding: 10px;
+}
